@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #71b7e6, #9b59b6);
+}
+.container{
+    max-width: 700px;
+    width: 70%;
+    background: white;
+  
+    border-radius: 5px;
+
+}
+.container .user-detail input{
+    height: 11px;
+    font-size: 4px;
+}
+.container .title{
+font-size: 10px;
+text-align: center;
+}
+
+.container form .user-detail{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2px;
+}
+form .user-detail .input-box{
+    margin:4px;
+    width: calc(100%/2 - 20px);
+}
+.user-detail input{
+    height: 45px;
+    width: 80%;
+   
+}
+form .gender-details .category{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-top: 4px;
+    margin-left: 9px;
+}
+
+button{
+    font-size: 5px;
+    margin-top: 4px;
+    height: 11px;
+    text-align: center;
+    background-color: greenyellow;
+    margin-left: 80px;
+}
+button:hover{
+    background-color: red;
+}
